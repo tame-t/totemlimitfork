@@ -80,18 +80,6 @@ public final class Totemlimit implements ModInitializer {
             droppedAny = true;
         }
 
-        ItemStack offhand = player.getOffHandStack();
-        if (isTotem(offhand)) {
-            if (!keepFound) {
-                keepFound = true;
-            } else {
-                ItemStack toDrop = offhand.copy();
-                player.setStackInHand(Hand.OFF_HAND, ItemStack.EMPTY);
-                player.dropItem(toDrop, true, false);
-                droppedAny = true;
-            }
-        }
-
         if (player.currentScreenHandler != null) {
             ItemStack cursor = player.currentScreenHandler.getCursorStack();
             if (isTotem(cursor)) {
