@@ -1,7 +1,7 @@
 # Totem Limit
 
 Totem Limit is a lightweight Fabric mod that enforces a **hard limit of one Totem of Undying per player**.
-Designed for my minecraft smp, this version is a fork that alow totem off handing
+Designed for my minecraft smp, this version is a fork that allow totem off handing
 
 
 ## Features
